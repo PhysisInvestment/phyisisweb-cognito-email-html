@@ -4,62 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style type="text/css">
+    
+        .saludo {
+            display: flex;
+            margin-bottom: 60px;
+        }
 
-        button{
+        .saludo a {
+            color: white;
             background-color: #1473E6;
-            border: none;
             padding: 15px;
             padding-top: 5px;
-            margin-bottom: 53px;
         }
-
-        button a {
-            color: white;
-            text-decoration: underline;
-        }
-
-        p a {
-            text-decoration: underline;
-        }
-        button a:hover {
-            color: white;
-        }
-
         h1 {
             margin-bottom: 43px;
             font-size: 1.5em;
         }
 
-      .row p {
+        .saludo p {
             margin-bottom: 106px;
         }
 
-        p{margin: 0;}
+        p {
+            margin: 0;
+        }
     </style>
 </head>
 
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-4 pr-0">
-            <h1>Welcome, Physer!</h1>
-            <p>Click below to confirm your Free Physis Account</p>
-            <button><a href="#">{##Confirm your Account##}</a></button>
-
-        </div>
-
-        <div class="col pl-0">
+        <h1>Welcome, Physer!</h1>
+        <div class="saludo">
+            <div>
+                <p>Click below to confirm your Free Physis Account</p>
+              <a class="confirmeCuenta" href="#">{##Confirm your Account##}</a>
+            </div>
             <img class="imgPhyse" src="https://physisinvestfrontend.s3.amazonaws.com/physisImg.jpg">
         </div>
-    </div>
 
-        <p> Physis Investment, Inc.</p>
-        <p> www.physisinvest.com</p>
-        <p>Unsubscribe | <a href="http://dev.physisinvest.com/legal#privacy" target="_black">Privacy & Terms</a></p>
+    <p> Physis Investment, Inc.</p>
+    <p> www.physisinvest.com</p>
+    <p>Unsubscribe | <a href="http://dev.physisinvest.com/legal#privacy" target="_black">Privacy & Terms</a></p>
     </div>
 </body>
 
